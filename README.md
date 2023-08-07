@@ -78,14 +78,12 @@ Install all dependencies listed in _requirements.txt_ file.
 
 1. To install all dependencies run -
 
-   ```bash
-   $ sudo -H pip3 install -r requirements.txt
+   pip install -r requirements.txt
    ```
 
 2. Start the server
 
-   ```bash
-   $ python app.py
+    python app.py
    ```
 
 ---
