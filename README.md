@@ -29,7 +29,7 @@ This API supports category wise news. Here is a complete list of all categories.
 Make a get request specifying the category of news you want
 
 ```
-https://inshorts.deta.dev/news?category={category_name}
+http://127.0.0.1:5000/news?category={category_name}
 ```
 
 Example - https://inshorts.deta.dev/news?category=science
@@ -38,7 +38,7 @@ Example - https://inshorts.deta.dev/news?category=science
 
 ## Response Format
 
-The response JSON Object looks something like this -
+The response JSON Object looks something like this in english -
 
 ```JSON
     {
@@ -71,6 +71,48 @@ The response JSON Object looks something like this -
 ```
 
 ---
+
+
+
+
+---
+
+## Response Format
+
+The response JSON Object looks something like this in Hindi -
+
+```JSON
+    {
+    "category": "all",
+    "data": [
+    {
+    "author": "चंद्रमणि झा",
+    "content": "वेस्टइंडीज़ ने रविवार को गुयाना में दूसरे टी20I मैच में भारत को 2 विकेट से हराकर 5 मैचों की सीरीज़ में 2-0 की बढ़त बना ली। इसके साथ ही भारत को 12 साल में पहली बार वेस्टइंडीज़ के खिलाफ लगातार 2 अंतर्राष्ट्रीय मैचों में हार मिली है। दूसरे टी20I में वेस्टइंडीज़ के विकेटकीपर-बल्लेबाज़ निकोलस पूरन ने सर्वाधिक 67(40) रन बनाए।",
+    "date": "06 Aug 2023,Sunday",
+    "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2023/08_aug/6_sun/img_1691344112939_10.jpg?",
+    "readMoreUrl": "https://www.espncricinfo.com/series/india-in-west-indies-2023-1381201/west-indies-vs-india-2nd-t20i-1381218/live-cricket-score?utm_campaign=fullarticle&utm_medium=referral&utm_source=inshorts ",
+    "time": "11:43 pm",
+    "title": "भारत को 12 साल में पहली बार वेस्टइंडीज़ के खिलाफ लगातार 2 अंतर्राष्ट्रीय मैचों में मिली हार",
+    "url": "https://www.espncricinfo.com/series/india-in-west-indies-2023-1381201/west-indies-vs-india-2nd-t20i-1381218/live-cricket-score?utm_campaign=fullarticle&utm_medium=referral&utm_source=inshorts "
+    },
+
+    {
+    "author": "अनिल कुमार",
+    "content": "नूंह हिंसा को लेकर रविवार को गुरुग्राम (हरियाणा) में महापंचायत बुलाई गई जहां ज़िला बार असोसिएशन के पूर्व प्रधान कुलभूषण भारद्वाज ने मुख्यमंत्री मनोहर लाल खट्टर के इस्तीफे की मांग की। उन्होंने कहा, \"हमें योगी आदित्यनाथ जैसा मुख्यमंत्री चाहिए, नहीं तो मेवात को उत्तर प्रदेश में शामिल कर दें।\" गौरतलब है, इस हिंसा में 6 लोगों की मौत हुई थी।",
+    "date": "07 Aug 2023,Monday",
+    "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2023/08_aug/7_mon/img_1691378733539_698.jpg?",
+    "readMoreUrl": "https://www.livehindustan.com/ncr/story-we-want-cm-like-yogi-adityanath-otherwise-merg-nuh-in-up-demand-raised-in-hindu-samaj-mahapanchayat-at-tighar-village-in-gurugram-8540118.amp.html?utm_campaign=fullarticle&utm_medium=referral&utm_source=inshorts ",
+    "time": "10:52 am",
+    "title": "हमें योगी जैसा सीएम चाहिए: नूंह हिंसा को लेकर गुरुग्राम बार असोसिएशन के पूर्व प्रधान कुलभूषण",
+    "url": "https://www.livehindustan.com/ncr/story-we-want-cm-like-yogi-adityanath-otherwise-merg-nuh-in-up-demand-raised-in-hindu-samaj-mahapanchayat-at-tighar-village-in-gurugram-8540118.amp.html?utm_campaign=fullarticle&utm_medium=referral&utm_source=inshorts "
+    }
+    ],
+    "success": true
+    }
+```
+
+---
+
 
 ## Setup
 
