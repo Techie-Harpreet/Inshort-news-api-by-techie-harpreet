@@ -24,7 +24,7 @@ This API supports category wise news. Here is a complete list of all categories.
 
 ---
 
-## Usage
+## Use to get english news
 
 Make a get request specifying the category of news you want
 
@@ -32,7 +32,22 @@ Make a get request specifying the category of news you want
 http://127.0.0.1:5000/news?category={category_name}
 ```
 
-Example - https://inshorts.deta.dev/news?category=science
+Example - https://api.harpreetsinghbansal.com/techie-harpreet-news-world/news?category=sports
+
+---
+
+
+---
+
+## Use to get Hindi news
+
+Make a get request specifying the category of news you want
+
+```
+http://127.0.0.1:5000/news-hin?category={category_name}
+```
+
+Example - https://api.harpreetsinghbansal.com/techie-harpreet-news-world/news-hin?category=sports
 
 ---
 
