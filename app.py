@@ -1,6 +1,6 @@
 #Coded by Techie Harpreet on 05th Aug 2023
 from flask import Flask, request, jsonify
-from inshorts import getNews
+from inshorts import getNews,getHindiNews
 from flask_cors import CORS
 
 app = Flask(__name__)
@@ -16,6 +16,11 @@ def news():
                 "error": "please add category in query params"
             }), 404
         return jsonify(getNews(category)), 200
+    
+@app.route('/news-hin')
+def newsHindi():
+    if request.method == 'GET':
+        return jsonify(getHindiNews(request.args.get('category')))
 
 if __name__ == '__main__':
     app.debug = True
