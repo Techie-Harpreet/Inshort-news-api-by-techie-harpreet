@@ -36,9 +36,9 @@ Example - https://inshorts.deta.dev/news?category=science
 
 ---
 
-## Response Format
+## Response Format in English
 
-The response JSON Object looks something like this in english -
+The response JSON Object looks something like this -
 
 ```JSON
     {
@@ -77,9 +77,9 @@ The response JSON Object looks something like this in english -
 
 ---
 
-## Response Format
+## Response Format in Hindi
 
-The response JSON Object looks something like this in Hindi -
+The response JSON Object looks something like this -
 
 ```JSON
     {
